@@ -1,0 +1,59 @@
+.timer-container {
+  display: flex;
+  flex-direction: column;
+  place-items: center;
+  min-height: 50vh;
+  width: 400px;
+  background-color: #e2e2e2;
+  padding: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.timer-display {
+  border: 2px solid #333;
+  margin: 20px;
+  font-size: 48px;
+  padding: 20px;
+  background-color: #fff;
+}
+
+.timer-controls {
+  display: flex;
+  justify-content: center;
+}
+
+.timer-controls button {
+  background-color: #007bff;
+  font-size: 16px;
+  border: none;
+  color: #fff;
+  padding: 15px 32px;
+  margin: 5px;
+  border-radius: 2rem;
+  cursor: pointer;
+}
+
+.timer-controls button:hover {
+  background-color: #0046d5;
+}
+
+.timer-laps {
+  width: 100%;
+}
+
+.timer-laps ul {
+  list-style-type: none;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  padding: 0;
+}
+
+.timer-laps li {
+  border-bottom: 1px solid #000000;
+  padding: 8px 16px;
+}
+
+.timer-laps li:nth-child(odd) {
+  background-color: #ddd;
+}
